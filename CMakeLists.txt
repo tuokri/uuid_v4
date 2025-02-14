@@ -10,7 +10,7 @@ option(test "Build all tests." OFF)
 option(test_use_internal_googletest "Build googletest, do not use it from system." ON)
 option(benchmark "Build benchmarks." OFF)
 option(benchmark_use_internal_googlebenchmark "Build google benchmark, do not use it from system." ON)
-option(example "Build example program." OFF)
+option(build_example "Build example program." OFF)
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
