@@ -6,11 +6,11 @@ endif ()
 
 project (uuid_v4 VERSION 1.0.0 LANGUAGES CXX)
 
-option(test "Build all tests." OFF)
-option(test_use_internal_googletest "Build googletest, do not use it from system." ON)
-option(benchmark "Build benchmarks." OFF)
-option(benchmark_use_internal_googlebenchmark "Build google benchmark, do not use it from system." ON)
-option(build_example "Build example program." OFF)
+option(uuid_v4_test "Build all tests." OFF)
+option(uuid_v4_test_use_internal_googletest "Build googletest, do not use it from system." ON)
+option(uuid_v4_benchmark "Build benchmarks." OFF)
+option(uuid_v4_benchmark_use_internal_googlebenchmark "Build google benchmark, do not use it from system." ON)
+option(uuid_v4_build_example "Build example program." OFF)
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
